@@ -1,0 +1,72 @@
+.container{
+    width: 1920px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+.logo{ margin-left: 100px;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    }
+.header{
+    width: 1920px;
+    height: 150px;
+    background-color: rgba(33, 33, 33, 0.911);
+}
+a { font-size:25px;
+    text-decoration:none;
+    color: rgba(121, 121, 121, 0.774);
+    
+}
+a:hover{
+    color: white;
+}
+
+li{ display: inline-block;
+    margin: 5px;
+    padding-top: 40px;
+    
+}
+#verde{
+    color: seagreen;
+}
+
+.navbarhead{ float:right;
+    margin-right: 50px;
+    
+
+}    
+.bsas{
+    width:auto;
+    position: absolute;
+    filter: brightness(0.5);
+}
+.batext{ 
+    position: relative;
+    color: white;
+    float: right; 
+    width: 820px; 
+    text-align: right;
+    font-size: 28px ;
+    margin-right: 150px;
+    margin-top: 400px;  
+    filter: brightness(0.8);
+}      
+
+.transparente{
+    color: white;
+    background-color: transparent;
+    width: 240px;
+    height: 50px;
+    border-radius: 2px;
+    border-color: white;
+    font-size: 20px;
+}
+.verde{
+    background-color: darkgreen;
+    color: white;
+    border: transparent;
+    width:240px;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 20px;
+}

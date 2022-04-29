@@ -12,12 +12,12 @@
         <div class="header">
             <img src="img/codoacodo.png" class="logo">            
             <div class="navbarhead">
-            <ul>
-                <li> <a href="">La conferencia </a> </li> 
-                <li> <a href=""> Los oradores </a> </li>
-                <li> <a href=""> El lugar y la fecha </a> </li>
-                <li> <a href=""> Conviértete en orador </a> </li>
-                <li > <a href="" id="verde"> Comprar tickets </a> </li>
+            <ul >
+                <li> <a class="primero" href="">La conferencia </a> </li> 
+                <li> <a class="primero"href=""> Los oradores </a> </li>
+                <li> <a class="primero" href=""> El lugar y la fecha </a> </li>
+                <li> <a class="primero"href=""> Conviértete en orador </a> </li>
+                <li > <a class="primero" href="" id="verde"> Comprar tickets </a> </li>
             </ul>
             </div>
             </div>
@@ -33,61 +33,78 @@
         <button class="verde"> Comprar tickets </button>
             </div>
         </div>
-    </div>    
+    </div>   
+    <div class="oradores"> 
         <p>CONOCE A LOS</p>
         <h2>ORADORES</h2> 
-
+    </div>        
         <div class="row">
             <div class="col">
-                <img src="img/steve.jpg" alt="">
-                <p> Steve Jobs <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorem corrupti aut incidunt tempora alias minima deleniti quia voluptate, quaerat nam quis pariatur repudiandae officiis rem dolore reprehenderit perferendis amet.
+                <img src="img/steve.jpg" alt="" height="400px"
+                width="400px" >
+                <div class="tipo">
+                <h2>Steve Jobs </h2>
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorem corrupti aut incidunt tempora alias minima deleniti quia voluptate, quaerat nam quis pariatur repudiandae officiis rem dolore reprehenderit perferendis amet.
                  </p>
+                </div>
             </div>
             <div class="col">
-                <img src="img/bill.jpg" alt="">
-                <p> Bill Gates <br>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quod eius numquam voluptas voluptatibus quas in tempore nisi nostrum aliquam fugiat, quos iure id eaque similique itaque quia voluptate. A!
+                <img src="img/bill.jpg" alt="" height="400px"
+                width="400px" >
+                <div class="tipo">
+                <h2 > Bill Gates</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quod eius numquam voluptas voluptatibus quas in tempore nisi nostrum aliquam fugiat, quos iure id eaque similique itaque quia voluptate. A!
                 </p>
+                </div>
             </div>
             <div class="col">
-                <img src="img/ada.jpeg" alt="">
-                <p> Ada Lovelace <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur ratione sequi deserunt illum dolore, voluptates inventore consectetur perspiciatis numquam ducimus eligendi, error at reiciendis pariatur asperiores suscipit magni ad.
+                <img src="img/ada.jpeg" alt="" height="400px"
+                width="400px" >
+                <div class="tipo">
+                <h2> Ada Lovelace </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur ratione sequi deserunt illum dolore, voluptates inventore consectetur perspiciatis numquam ducimus eligendi, error at reiciendis pariatur asperiores suscipit magni ad.
                 </p>
+            </div>
             </div>
         </div>
-
-        <img src="img/honolulu.jpg">
-        <h1>Bs As - Octubre</h1>
+        
+        <img src="img/honolulu.jpg"  width="1035px" height="750px">
+        <div class="texplaya">
+            <div class="octubre">
+            <h1>Bs As - Octubre</h1>
         <p> Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+            </div>
         <button class="honolulu"> Conocé más </button>
-
+                </div>
+        
+        <div class="orador">
         <p>CONVIERTETE EN UN </p>
-      <h2>ORADOR</h2>
+      <h1>ORADOR</h1>
       <p>Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</p>
+        </div>
 
         <div class="form">
-        <form action="datos">
-          <label for="nombre"> </label>
-          <input type="text" id="nombre" name="nombre" value="Nombre">
-          <label for="apellido"> </label>
-          <input type="text" id="apellido" name="apellido" value="Apellido"><br><br>
-          <label for="Texto"> </label>
-          <input type="text" id="texto" name="texto" value="Sobre que quieres hablar?"><br>
-          <p id="tex">Recuerda incluir un titulo para tu charla</p>
-          
-          <input type="submit" value="Enviar"  id="boton">
-        </form> 
-      </div>
+            <form action="datos">
+              <label for="nombre"> </label>
+              <input type="text" id="nombre" name="nombre" value="Nombre">
+              <label for="apellido"> </label>
+              <input type="text" id="apellido" name="apellido" value="Apellido"><br><br>
+              <label for="Texto"> </label>
+              <input type="text" id="texto" name="texto" value="Sobre que quieres hablar?"><br>
+              <p id="tex">Recuerda incluir un titulo para tu charla</p>
+           <input type="submit" value="Enviar"  id="boton">
+            </form> 
+          </div> <br> 
 
         <div class="footer">
             <ul>
-                <li> <a href=""> Preguntas frecuentes </a> </li>
-                <li> <a href=""> Contáctanos </a> </li>
-                <li> <a href=""> Prensa </a> </li>
-                <li> <a href=""> Conferencias </a> </li>
-                <li> <a href=""> Terminos y condiciones </a> </li>
+                <li> <a class="ultimo" href=""> Preguntas frecuentes </a> </li>
+                <li> <a class="ultimo" href=""> Contáctanos </a> </li>
+                <li> <a class="ultimo" href=""> Prensa </a> </li>
+                <li> <a class="ultimo" href=""> Conferencias </a> </li>
+                <li> <a class="ultimo" href=""> Terminos y condiciones </a> </li>
+                <li> <a class="ultimo" href=""> Privacidad </a> </li>
+                <li> <a class="ultimo" href=""> Estudiantes </a> </li>
             </ul>
         </div>
     </div>
